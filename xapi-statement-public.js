@@ -15,8 +15,8 @@ function sendStatement(verb, verbId, object, objectId, openTextVar) {
     /*
     Based on user's choice, one of three functions will be called in StoryLine:
       userRace = human then: sendStatement("selected", "http://id.tincanapi.com/verb/selected", "human", "https://www.dndbeyond.com/races/human", "userClass")
-      userRace = dwarf then:sendStatement("selected", "http://id.tincanapi.com/verb/selected", "dwarf", "https://www.dndbeyond.com/races/dwarf", "userClass")
-      userRace = half-orc then:sendStatement("selected", "http://id.tincanapi.com/verb/selected", "half-orc", "https://www.dndbeyond.com/races/half-orc", "userClass")
+      userRace = dwarf then: sendStatement("selected", "http://id.tincanapi.com/verb/selected", "dwarf", "https://www.dndbeyond.com/races/dwarf", "userClass")
+      userRace = half-orc then: sendStatement("selected", "http://id.tincanapi.com/verb/selected", "half-orc", "https://www.dndbeyond.com/races/half-orc", "userClass")
     */
 
     "actor": {
